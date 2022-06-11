@@ -1,0 +1,28 @@
+{
+  "name": "Gitlab PR resolver",
+  "description": "Simple chrome extension that helps resolving all discussion in a pull request",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "permissions": ["storage", "activeTab", "scripting"],
+  "content_scripts": [
+    {
+      "matches": ["https://gitlab.com/*"],
+      "js": ["popup.js"]
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "/images/rating-16.png",
+      "32": "/images/rating-32.png",
+      "64": "/images/rating-64.png",
+      "128": "/images/rating-128.png"
+    }
+  },
+  "icons": {
+    "16": "/images/rating-16.png",
+    "32": "/images/rating-32.png",
+    "64": "/images/rating-64.png",
+    "128": "/images/rating-128.png"
+  }
+}

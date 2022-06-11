@@ -1,0 +1,27 @@
+#resolver_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.75rem 0.25rem;
+  outline: none;
+  border: none;
+  border-radius: 0.75rem;
+  padding: 0.25rem;
+  background-color: #8cb3d9;
+  width: 10.5rem;
+  height: 2.5rem;
+  font-weight: 600;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#resolver_button:hover {
+  cursor: pointer;
+  background-color: #6699cc;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#resolver_button:active {
+  cursor: pointer;
+  background-color: #9fbfdf;
+  box-shadow: none;
+}
